@@ -23,6 +23,6 @@ char *ft_strpbrk(const char *s1, const char *s2)
 	}
 	if(r == l)
 		return NULL;
-	return (&s1[r]);
+	return ((char *)&s1[r]);
 
 }
